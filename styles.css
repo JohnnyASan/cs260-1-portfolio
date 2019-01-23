@@ -1,5 +1,11 @@
 body {
 color:black;
+background-color: #E8E8E8;
+font-family: arial;
+}
+
+#paraside {
+  font-size: 15px;
 }
 
 #side {
@@ -12,7 +18,7 @@ color:black;
   padding: 20px;
 }
 
-#menu ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,11 +26,11 @@ color:black;
   background-color: black;
 }
 
-#menu li {
+nav li {
   float: left;
 }
 
-#menu li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -33,7 +39,7 @@ color:black;
 }
 
 /* Change the link color to #111 (black) on hover */
-#menu li a:hover {
+nav li a:hover {
   background-color: grey;
 }
 
@@ -50,4 +56,17 @@ ul {
 li a {
   display: block;
   width: 150px;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+
+}
+
+article {
+  flex: 4;
 }
